@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+  </head>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    h2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #00ff62;
+    }
+    .main {
+      background-color: #557649;
+      padding: 30px;
+      width: 200px;
+      border-radius: 8px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+    input {
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+      background-color: #caff95;
+    }
+    #first {
+      width: 70px;
+      margin-left: 5px;
+    }
+    #last {
+      width: 70px;
+      margin-right: 5px;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      gap: 10px;
+      box-sizing: border-box;
+    }
+    #pass {
+      width: 90px;
+    }
+    button {
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+      background-color: #48a643;
+      color: white;
+    }
+    button:hover {
+      background-color: #014f01;
+    }
+  </style>
+  <body>
+    <div class="main">
+      <h2>Login Page</h2>
+      <form>
+        <input type="email" name="" id="" placeholder="Email" />
+        <div class="row">
+          <input type="text" name="" id="first" placeholder="First name" />
+          <input type="text" name="" id="last" placeholder="Last name" />
+        </div>
+        <input type="password" name="" id="pass" placeholder="Password" />
+        <button><b>Sign Up</b></button>
+      </form>
+    </div>
+  </body>
+</html>
