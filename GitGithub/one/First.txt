@@ -1,3 +1,1 @@
 test1 on bug-fix
-test2 on bug-fix
-test3 on bug-fix
