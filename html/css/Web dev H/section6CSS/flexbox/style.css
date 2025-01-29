@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   background-color: #907373;
 }
@@ -36,3 +37,43 @@ body {
 .color5 {
   background-color: #ffdfba;
 }
+=======
+body {
+  background-color: #907373;
+}
+.container {
+  border: 2px solid rgb(127, 245, 106);
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 600px;
+}
+.square {
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color1 {
+  background-color: #ffb3ba;
+}
+
+.color2 {
+  background-color: #baffc9;
+}
+
+.color3 {
+  background-color: #bae1ff;
+}
+
+.color4 {
+  background-color: #ffffba;
+}
+
+.color5 {
+  background-color: #ffdfba;
+}
+>>>>>>> 295e764b6e427d7724d0780a0dfd0e6d9e8ae46f

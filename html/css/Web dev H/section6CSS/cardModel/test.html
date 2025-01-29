@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -42,3 +43,49 @@
     </div>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .image-container {
+        position: relative; /* Position relative for absolute positioning of the large image */
+        display: inline-block; /* Allow the container to fit the logo size */
+      }
+
+      .logo {
+        width: 100px; /* Set the size of the logo */
+        height: auto; /* Maintain aspect ratio */
+        transition: transform 0.3s ease; /* Smooth transition for scaling */
+      }
+
+      .large-image {
+        position: absolute; /* Position the large image over the logo */
+        top: 0; /* Align with the top of the container */
+        left: 0; /* Align with the left of the container */
+        width: 300px; /* Set the size of the large image */
+        height: auto; /* Maintain aspect ratio */
+        display: none; /* Hide the large image by default */
+        z-index: 10; /* Ensure it appears above other elements */
+      }
+
+      .image-container:hover .large-image {
+        display: block; /* Show the large image on hover */
+      }
+
+      .image-container:hover .logo {
+        transform: scale(1.1); /* Slightly enlarge the logo on hover */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-container">
+      <img src="shoe.jpg" class="logo" alt="Logo" />
+      <img src="shoe.jpg" class="large-image" alt="Large Image" />
+    </div>
+  </body>
+</html>
+>>>>>>> 295e764b6e427d7724d0780a0dfd0e6d9e8ae46f

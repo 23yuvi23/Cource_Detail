@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -182,3 +183,192 @@
     crossorigin="anonymous"
   ></script>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hitesh Sir</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+
+    <style>
+      body,
+      html {
+        background: linear-gradient(90deg, #de6b45, #350000);
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+      #carouselExample {
+        width: 100%;
+        box-shadow: 0 4px 60px rgb(0, 0, 0, 9);
+      }
+      .carousel-item img {
+        height: 300px;
+        object-fit: cover;
+      }
+
+      .allcard {
+        display: flex;
+        justify-content: space-around;
+        flex-grow: 1;
+        padding: 100px;
+        flex-wrap: wrap;
+      }
+
+      .card {
+        background-color: #b46c35;
+        color: rgb(0, 0, 0);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        margin-bottom: 20px; /* change1 */
+      }
+      .card:hover {
+        transform: scale(0.9, 0.9);
+        box-shadow: 0 0 60px black;
+      }
+      .card-body {
+        box-shadow: 0 4px 60px rgb(0, 0, 0, 9);
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+      .btn {
+        width: 100%;
+        background-color: #ff5804;
+        color: black;
+        border: none;
+      }
+
+      .btn:hover {
+        background-color: #fd6f03;
+      }
+      .text-center {
+        /* background: linear-gradient(135deg, #f2a288, #b46c35); */
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+      .copyright p {
+        color: rgb(253, 253, 253);
+      }
+
+      @media (max-width: 940px) {
+        .carousel-item img {
+          height: 150px; /* Adjust height for smaller screens */
+        }
+
+        .card {
+          width: 100%; /* Make cards full width */
+        }
+      }
+      @media (max-width: 600px) {
+        .carousel-item img {
+          height: 100px; /* Further reduce height for very small screens */
+        }
+      }
+
+      footer {
+        border: none;
+        color: aliceblue;
+
+        display: flex;
+        justify-content: center; /* Center content horizontally */
+        align-items: center; /* Center content vertically */
+        margin-top: auto;
+        background: fixed;
+        background-color: #020202;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="2.png" class="d-block w-100" alt="image1" />
+        </div>
+        <div class="carousel-item">
+          <img src="1.png" class="d-block w-100" alt="image2" />
+        </div>
+        <div class="carousel-item">
+          <img src="3.png" class="d-block w-100" alt="image3" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="allcard">
+      <div class="card" style="width: 18rem">
+        <img src="thumbnail1.jpg" class="card-img-top" alt="first image" />
+        <div class="card-body">
+          <h5 class="card-title">Cohot Platform</h5>
+          <p class="card-text">
+            Cohort Learning: Grow together through group-based learning and
+            shared experiences.
+          </p>
+          <a href="https://youtu.be/mV3VvMG4jzw?t=2" class="btn btn-primary"
+            >Watch Now</a
+          >
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="thumbnail2.jpg" class="card-img-top" alt="first image" />
+        <div class="card-body">
+          <h5 class="card-title">Time Management</h5>
+          <p class="card-text">
+            Time Management: Prioritize tasks, stay organized, and achieve goals
+            efficiently.
+          </p>
+          <a href="https://youtu.be/87C5iuGaCq0?t=3" class="btn btn-primary"
+            >Watch Now</a
+          >
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="thumbnail3.jpg" class="card-img-top" alt="first image" />
+        <div class="card-body">
+          <h5 class="card-title">Why should We Travel</h5>
+          <p class="card-text">
+            Why Travel: Explore new places, gain fresh perspectives, and create
+            unforgettable memories.
+          </p>
+          <a href="https://youtu.be/u7hugOSvYHo?t=1" class="btn btn-primary"
+            >Watch Now
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy All right reserved by Yuvi</p>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</html>
+>>>>>>> 295e764b6e427d7724d0780a0dfd0e6d9e8ae46f

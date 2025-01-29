@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 * {
@@ -109,3 +110,116 @@ body::before {
 .logo:hover {
   height: 400px;
 }
+=======
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  align-items: center; /* Use align-items for vertical centering */
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute; /* Position it absolutely */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("background.jpg"); /* Set your background image */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  filter: blur(3px); /* Apply blur effect */
+  z-index: 1; /* Ensure it is behind the content */
+}
+.container {
+  /* border: 2px solid black; */
+  padding: 10px;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* flex-wrap: wrap; */
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 2;
+}
+
+.container:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 0 0 60px black;
+}
+
+.tex {
+  text-align: center;
+  justify-content: center; /* Center content vertically */
+  align-items: center;
+}
+
+.logo {
+  /* border: 2px solid black; */
+  padding: 10px;
+  height: 300px;
+  width: 276px;
+  display: flex;
+  align-items: end;
+  background-image: url(shoe.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  transition: height 3s ease;
+}
+
+.text {
+  font-family: "Nunito", sans-serif;
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 20px black;
+  font-size: 15px;
+  margin: 0;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 10px;
+}
+.b,
+.c {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #f36060;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.c:hover {
+  background-color: #fb2828;
+}
+
+.b:hover {
+  background-color: #fb2828;
+}
+
+.logo:hover {
+  height: 400px;
+}
+>>>>>>> 295e764b6e427d7724d0780a0dfd0e6d9e8ae46f
