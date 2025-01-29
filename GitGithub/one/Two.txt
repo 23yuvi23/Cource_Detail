@@ -5,3 +5,4 @@ another stash mesage
 this line check temporary mode 
 
 another fix for pink mode
+another fix for purple mode
