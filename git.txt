@@ -1,0 +1,20 @@
+pwd  ->                    see current working directory
+
+cd /media/dev/SHARED->     used to travel to my drive shared
+
+cd linux ->                use without / if on same directory
+
+mkdir name ->              to create a folder name 
+
+cd..    ->                 to come 1 step back
+
+ls -la ->                   to see the hidden folder as well
+
+git init->                  initialize git 
+
+git status ->               check the status
+
+rm -rf  filename->          delete the current file
+
+ls -a    ->                 view hidden files also from current directory
+

@@ -1,0 +1,79 @@
+body {
+  background-color: #686565;
+}
+.digit {
+  background-color: #ffb4b4;
+  border: 2px solid black;
+}
+
+.container {
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.gridcontainer {
+  display: grid;
+  gap: 10px;
+}
+.digit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.class1 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+}
+
+.class2 {
+  grid-template-columns: 1fr 2fr 3fr;
+}
+
+.class3 {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.class4 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+}
+
+.class4one {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+.class4five {
+  grid-column: 2/4;
+}
+
+.class5 {
+  grid-template-areas: "header header header" "sidebar main main" "footer footer footer";
+  grid-template-rows: repeat(3, 100px);
+}
+
+.class6 {
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.class7 {
+  grid-template-columns: repeat(3, 1fr);
+
+  height: 300px;
+  align-items: center;
+}
+
+.class8 {
+  grid-template-columns: 1fr 1fr;
+}
+.class8A {
+  grid-template-columns: 1fr 1fr;
+}
+
+.class9 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+}

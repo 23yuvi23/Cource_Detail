@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox-sqare</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Flexbox Properties</h1>
+    <div class="container">
+      <h2>1-Default Flex</h2>
+      <div class="default-flex">
+        <div class="square color1">1</div>
+        <div class="square color2">2</div>
+        <div class="square color3">3</div>
+        <div class="square color4">4</div>
+        <div class="square color5">5</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>2-flex Direction: Column</h2>
+      <div class="default-flex" style="display: flex; flex-direction: row">
+        <div class="square color1">1</div>
+        <div class="square color2">2</div>
+        <div class="square color3">3</div>
+        <div class="square color4">4</div>
+        <div class="square color5">5</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>3-Justify Content: Space-Between</h2>
+      <div
+        class="default-flex"
+        style="display: flex; justify-content: space-between"
+      >
+        <div class="square color1">1</div>
+        <div class="square color2">2</div>
+        <div class="square color3">3</div>
+        <div class="square color4">4</div>
+        <div class="square color5">5</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>4-Align Items: Center</h2>
+      <div
+        class="default-flex"
+        style="display: flex; align-items: center; height: 200px"
+      >
+        <div class="square color1">1</div>
+        <div class="square color2">2</div>
+        <div class="square color3">3</div>
+        <div class="square color4">4</div>
+        <div class="square color5">5</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>5-Flex Wrap: Wrap</h2>
+      <div
+        class="default-flex"
+        style="display: flex; flex-wrap: wrap; flex-direction: row"
+      >
+        <div class="square color1">1</div>
+        <div class="square color2">2</div>
+        <div class="square color3">3</div>
+        <div class="square color4">4</div>
+        <div class="square color5">5</div>
+        <div class="square color1">6</div>
+        <div class="square color2">7</div>
+        <div class="square color3">8</div>
+        <div class="square color4">9</div>
+        <div class="square color5">10</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>6-Align Content: Space-Around (with Wrap)</h2>
+      <div
+        class="default-flex"
+        style="
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+          align-content: space-around;
+          height: 200px;
+        "
+      >
+        <div class="square color1">1</div>
+        <div class="square color2">2</div>
+        <div class="square color3">3</div>
+        <div class="square color4">4</div>
+        <div class="square color5">5</div>
+        <div class="square color1">6</div>
+        <div class="square color2">7</div>
+        <div class="square color3">8</div>
+        <div class="square color4">9</div>
+        <div class="square color5">10</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>7-order property (change order of numbers)</h2>
+      <div class="default-flex" style="display: flex">
+        <div class="square color1" style="order: 3">1</div>
+        <div class="square color2" style="order: 2">2</div>
+        <div class="square color3" style="order: 1">3</div>
+        <div class="square color3" style="order: 5">4</div>
+        <div class="square color3" style="order: 4">5</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>8-Flex-grow (Size change of particular object)</h2>
+      <div class="default-flex" style="display: flex">
+        <div class="square color1" style="flex-grow: 4">1</div>
+        <div class="square color2" style="flex-grow: 2">2</div>
+        <div class="square color3" style="flex-grow: 1">3</div>
+        <div class="square color3" style="flex-grow: 10">4</div>
+        <div class="square color3" style="flex-grow: 1.2">5</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>
+        9-Align Self with justify content:space between(stretch the object as
+        much as you want it for)
+      </h2>
+
+      <div
+        class="default-flex"
+        style="display: flex; height: 200px; justify-content: space-between"
+      >
+        <div class="square color1" style="align-self: flex-start">1</div>
+        <div class="square color2" style="align-self: center">2</div>
+        <div class="square color3" style="align-self: flex-end">3</div>
+        <div class="square color3" style="align-self: baseline">4</div>
+        <div class="square color3" style="align-self: stretch">5</div>
+        <div class="square color3" style="align-self: flex-start">5</div>
+      </div>
+    </div>
+  </body>
+</html>
